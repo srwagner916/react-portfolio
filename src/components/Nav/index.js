@@ -1,37 +1,31 @@
 import React from 'react';
-import './style.css';
 
 function Nav() {
   return (
-    <header className="flex-row center-vertical">
-      <nav>
+      <nav className="inline-flex">
         <ul className="inline-block">
-          <li className="mx">
-            <h1>Shay Wagner</h1>
-          </li>
-          <li className="mx">
+          <li className="inline mx-10 text-xl">
             <a href="/">
               <span>About Me</span>
             </a>
           </li>
-          <li className="mx">
+          <li className="inline mx-10 text-xl">
             <a href="/">
               <span>Portfolio</span>
             </a>
           </li>
-          <li className="mx">
+          <li className="inline mx-10 text-xl">
             <a href="/">
               <span>Contact Me</span>
             </a>
           </li>
-          <li className="mx">
+          <li className="inline mx-10 text-xl">
             <a href="/">
               <span>Resume</span>
             </a>
           </li>
         </ul>
       </nav>
-    </header>
   )
 }
 
