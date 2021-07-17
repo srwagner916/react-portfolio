@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [tabs] = useState([
@@ -25,7 +25,7 @@ function App() {
       case 'About Me':
         return <AboutMe/>;
       case 'Portfolio':
-        return <Project/>;
+        return <Portfolio/>;
       default:
         return <AboutMe/>;
     }
