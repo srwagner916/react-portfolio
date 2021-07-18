@@ -21,6 +21,7 @@ function App() {
     }
   ]);
   
+  //conditionally render components based on current tab
   const renderPage = () => {
     switch (currentTab.name) {
       case 'About Me':
