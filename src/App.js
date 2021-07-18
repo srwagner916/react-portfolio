@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
@@ -21,6 +21,10 @@ function App() {
       name: 'Resume'
     }
   ]);
+
+  useEffect(() => {
+    document.title = `${currentTab.name}`
+  })
   
   //conditionally render components based on current tab
   const renderPage = () => {

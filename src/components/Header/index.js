@@ -9,8 +9,10 @@ function Header(props) {
   } = props;
 
   return (
-    <header className="h-60 flex justify-evenly items-center bg-hero-image" >
-      <h1 className="text-7xl inline-block">Shay Wagner</h1>
+    <header className="font-serif h-60 flex justify-evenly items-center bg-hero-image" >
+      <a href="/">
+        <h1 className="text-8xl text-gray-800 inline-block">Shay Wagner</h1>
+      </a>
       <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab}/>
     </header>
   )

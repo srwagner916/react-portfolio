@@ -57,7 +57,7 @@ function Portfolio() {
     }
   ]
   return (
-    <div className="h-screen mx-10 my-20 grid gap-4 grid-flow-row grid-cols-2 text-5xl">
+    <div className="h-screen mx-10 my-20 grid gap-10 grid-flow-row grid-cols-2 text-5xl">
       {projects.map((project, i ) => (
         <Project projects={projects} key={project.name} index={i} />
       ))}

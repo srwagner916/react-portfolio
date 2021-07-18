@@ -2,6 +2,10 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'serif': ['Mate SC'],
+      'sans': ['Open Sans']
+    },
     extend: {
       backgroundImage: theme => ({
         'hero-image': "url('./assets/images/hero-image.jpg')",
