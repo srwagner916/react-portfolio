@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero-image': "url('./images/rectangles.jpg')",
+        'hero-image': "url('./images/hero-image.jpg')",
         'celiac-tackboard-image': "url('./images/celiac-tackboard.png')",
         'on-hand-cooking-image': "url('./images/on-hand-cooking.png')",
         'weather-dashboard-image': "url('./images/weather-dashboard.png')",
@@ -17,5 +17,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }

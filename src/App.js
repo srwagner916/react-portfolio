@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   const [tabs] = useState([
@@ -26,6 +27,8 @@ function App() {
         return <AboutMe/>;
       case 'Portfolio':
         return <Portfolio/>;
+      case 'Contact Me':
+        return <Contact />
       default:
         return <AboutMe/>;
     }
@@ -36,7 +39,7 @@ function App() {
   console.log(currentTab);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="bg-gray-50 flex flex-col min-h-screen">
       <Header
         tabs={tabs}
         setCurrentTab={setCurrentTab}
