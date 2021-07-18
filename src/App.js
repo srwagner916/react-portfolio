@@ -36,7 +36,7 @@ function App() {
   console.log(currentTab);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className>
       <Header
         tabs={tabs}
         setCurrentTab={setCurrentTab}

@@ -14,7 +14,7 @@ function Nav(props) {
         <ul className="inline-block">
           {tabs.map((tab) => (
             <li 
-              className={`inline mx-10 text-xl ${currentTab.name === tab.name && 'text-blue-600'}`}
+              className={`inline mx-10 text-xl ${currentTab.name === tab.name && 'text-yellow-600'}`}
               key={tab.name}
             >
               <span

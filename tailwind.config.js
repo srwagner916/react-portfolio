@@ -6,7 +6,11 @@ module.exports = {
       backgroundImage: theme => ({
         'hero-image': "url('./images/rectangles.jpg')",
         'celiac-tackboard-image': "url('./images/celiac-tackboard.png')",
-        'food-image': "url('./images/food.jpg')"
+        'food-image': "url('./images/food.jpg')",
+        'weather-dashboard-image': "url('./images/weather-dashboard.png')",
+        'tech-blog-image': "url('./images/tech-blog-image.png')",
+        'readme-generator-image': "url('./images/README-generator.png')",
+        'code-quiz-image': "url('./images/code-quiz.png')"
       })
     },
   },
