@@ -17,17 +17,18 @@ function Project(props) {
     <>
       <div 
         className={
+          //maybe bg-blend-saturation
           `grid 
            grid-cols-3 
            bg-cover 
            bg-${projects[index].image}
            place-items-start
-           text-gray-600
+           text-gray-800
            text-opacity-0
            hover:bg-yellow-500
            hover:text-opacity-100
            duration-500
-           bg-blend-saturation
+           bg-blend-soft-light
            border-4
            border-yellow-600`
         }
