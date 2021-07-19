@@ -1,70 +1,25 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
 
-## Available Scripts
+## Description
+This is a current portfolio of my work. It contains the following sections; about me, portfolio, contact me, and resume. Thank you for taking the time to check out some of my projects. The portfolio was made using create react app. I used tailwind CSS as my styling framework. This is my first experience using tailwind. You can find a link to their website [here](https://tailwindcss.com/). Thank you again for taking the time to check this out.
+## Table of Contents
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contact](#Questions)
+## Installation
+To install this application to your local machine, click on the green button marked 'Code'. Then copy the link by clicking on the clipboard icon. Then, on your machine navigate to where you want to clone the repo. Once there run the command `git clone <link you copied to your clipboard>`. You will then have the repository cloned onto your local machine. The app is also deployed on GitHub pages. [It can be found by clicking here](https://srwagner916.github.io/react-portfolio/).
+## Usage
+At the deployed site. You will first see a page marked 'About Me'. Here you will see a short biography along with an image of me. If you click on 'Portfolio' in the header, you will then see some boxes with images of some of my projects. If you hover over an image you will then see the title of the project and the topic it demonstrates. If you click on the title you will be taken to the deployed application. If you click on the GitHub logo next to the title, you will be taken to the GitHub repository. If you click on 'Contact Me' in the header, you will then see a form for filling out messages. If you click on 'Resume' in the header, you will then see a lift of my proficiencies. You will also find a link you can click to download a pdf copy of my resume.
 
-In the project directory, you can run:
+![screenshot of about me page](./src/images/screencaps/about-me.png)
 
-### `npm start`
+![screenshot of portfolio page](./src/images/screencaps/portfolio.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![screenshot of contact me page](./src/images/screencaps/contact-me.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![screenshot of resume page](./src/images/screencaps/resume.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+GitHub: srwagner916<br>
+Email: <srwagner916@gmail.com>
