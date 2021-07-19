@@ -16,13 +16,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'hero-image': "url('./src/images/hero-image.jpg')",
-        'celiac-tackboard-image': "url('./src/images/celiac-tackboard.png')",
-        'on-hand-cooking-image': "url('./src/images/on-hand-cooking.png')",
-        'weather-dashboard-image': "url('./src/images/weather-dashboard.png')",
-        'tech-blog-image': "url('./src/images/tech-blog-image.png')",
-        'readme-generator-image': "url('./src/images/README-generator.png')",
-        'code-quiz-image': "url('./src/images/code-quiz.png')"
+        'hero-image': "url('./assets/images/hero-image.jpg')",
+        'celiac-tackboard-image': "url('./assets/images/celiac-tackboard.png')",
+        'on-hand-cooking-image': "url('./assets/images/on-hand-cooking.png')",
+        'weather-dashboard-image': "url('./assets/images/weather-dashboard.png')",
+        'tech-blog-image': "url('./assets/images/tech-blog-image.png')",
+        'readme-generator-image': "url('./assets/images/README-generator.png')",
+        'code-quiz-image': "url('./assets/images/code-quiz.png')"
       })
     },
   },
