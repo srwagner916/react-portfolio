@@ -12,7 +12,7 @@ function Project(props) {
           `grid
            grid-cols-3 
            bg-cover 
-           bg-${projects[index].image}
+           ${projects[index].image}
            place-items-start
            text-gray-800
            text-opacity-0

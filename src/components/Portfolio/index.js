@@ -9,7 +9,7 @@ function Portfolio() {
       name: 'Celiac Tackboard',
       github: 'https://github.com/celiac-tackboard/celiac-tackboard',
       deployed: 'https://polar-brook-06864.herokuapp.com/',
-      image: 'celiac-tackboard-image',
+      image: 'bg-celiac-tackboard-image',
       topic: 'Interactive full-stack project',
       textColor: 'text-gray-200',
     },
@@ -18,7 +18,7 @@ function Portfolio() {
       name: 'On Hand Cooking',
       github: 'https://github.com/cookItAndDontBurnIt/onHandCooking',
       deployed: 'https://cookitanddontburnit.github.io/onHandCooking/',
-      image: 'on-hand-cooking-image',
+      image: 'bg-on-hand-cooking-image',
       topic: 'Interactive front-end project',
       
     },
@@ -27,7 +27,7 @@ function Portfolio() {
       name: 'Weather Dashboard',
       github: 'https://github.com/srwagner916/weather-dashboard',
       deployed: 'https://srwagner916.github.io/weather-dashboard/',
-      image: 'weather-dashboard-image',
+      image: 'bg-weather-dashboard-image',
       topic: "Server-side API's",
      
     },
@@ -36,7 +36,7 @@ function Portfolio() {
       name: "Shay's Tech Blog",
       github: 'https://github.com/srwagner916/tech-blog',
       deployed: 'https://morning-island-64657.herokuapp.com/',
-      image: 'tech-blog-image',
+      image: 'bg-tech-blog-image',
       topic: 'Model-View-Controller',
     },
     {
@@ -44,7 +44,7 @@ function Portfolio() {
       name: 'README Generator',
       github: 'https://github.com/srwagner916/professional-README-generator',
       deployed: 'https://github.com/srwagner916/professional-README-generator',
-      image: 'readme-generator-image',
+      image: 'bg-readme-generator-image',
       topic: 'Node.js',
     },
     {
@@ -52,7 +52,7 @@ function Portfolio() {
       name: 'Code Quiz',
       github: 'https://github.com/srwagner916/code-quiz',
       deployed: 'https://srwagner916.github.io/code-quiz/',
-      image: 'code-quiz-image',
+      image: 'bg-code-quiz-image',
       topic: 'JavaScript',
     }
   ]
