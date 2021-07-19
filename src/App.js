@@ -44,8 +44,6 @@ function App() {
 
   const [currentTab, setCurrentTab] = useState(tabs[0]);
 
-  console.log(currentTab);
-
   return (
     <div className="bg-gray-50 flex flex-col min-h-screen">
       <Header

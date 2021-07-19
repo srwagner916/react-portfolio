@@ -7,8 +7,6 @@ function Nav(props) {
     currentTab
   } = props;
   
-  console.log(tabs);
-
   return (
       <nav className="inline-flex">
         <ul className="xs:text-2xl xs:flex xs:flex-col md:flex-row lg:text-3xl text-gray-800 inline-block">

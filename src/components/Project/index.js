@@ -26,7 +26,7 @@ function Project(props) {
         }
       >
 
-        <a className="mx-10 mt-5 col-span-2 transform duration-100 hover:scale-110" target="_blank" href={`${projects[index].deployed}`}>
+        <a className="mx-10 mt-5 col-span-2 transform duration-100 hover:scale-110" target="_blank" rel="noreferrer" href={`${projects[index].deployed}`}>
           <h3 >{`${projects[index].name}`}</h3>
         </a>
         <a className="mx-10 mt-5 transform duration-300 hover:scale-110" href={`${projects[index].github}`} target="_blank" title="Link to GitHub repo" rel="noreferrer">
