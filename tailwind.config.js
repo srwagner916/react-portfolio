@@ -16,13 +16,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'hero-image': "url('/public/assets/images/hero-image.jpg')",
-        'celiac-tackboard-image': "url('/public/assets/images/celiac-tackboard.png')",
-        'on-hand-cooking-image': "url('/public/assets/images/on-hand-cooking.png')",
-        'weather-dashboard-image': "url('/public/assets/images/weather-dashboard.png')",
-        'tech-blog-image': "url('/public/assets/images/tech-blog-image.png')",
-        'readme-generator-image': "url('/public/assets/images/README-generator.png')",
-        'code-quiz-image': "url('/public/assets/images/code-quiz.png')"
+        'hero-image': "url('.src/images/hero-image.jpg')",
+        'celiac-tackboard-image': "url('.src/images/celiac-tackboard.png')",
+        'on-hand-cooking-image': "url('.src/images/on-hand-cooking.png')",
+        'weather-dashboard-image': "url('.src/images/weather-dashboard.png')",
+        'tech-blog-image': "url('.src/images/tech-blog-image.png')",
+        'readme-generator-image': "url('.src/images/README-generator.png')",
+        'code-quiz-image': "url('.src/images/code-quiz.png')"
       })
     },
   },
@@ -33,3 +33,4 @@ module.exports = {
     require('@tailwindcss/forms')
   ],
 }
+require('./')
