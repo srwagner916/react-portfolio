@@ -57,7 +57,7 @@ function Contact() {
             <span className="text-2xl">{errorMessage}</span>
           </div>
         )} 
-          <button className="font-sans text-gray-800 text-2xl bg-gray-400 w-2/6 border-2 border-yellow-600 hover:bg-yellow-600 hover:border-gray-400 duration-300" type="submit">Submit</button>
+          <button className="font-sans text-gray-800 text-2xl bg-gray-300 w-2/6 border-2 border-yellow-600 hover:bg-yellow-600 hover:border-gray-400 duration-300" type="submit">Submit</button>
       </form>
     </section>
   )

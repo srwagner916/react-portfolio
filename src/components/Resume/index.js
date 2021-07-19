@@ -3,7 +3,7 @@ function Resume() {
   return (
     <div className="flex flex-col mx-auto my-auto">
       <h2 className="font-serif text-5xl my-5">Resume</h2>
-      <a href="./resume/resume.pdf" download="resume.pdf" className="italic font-sans  text-xl mt-2 hover:text-yellow-600">Click here to download my resume!</a>
+      <a href="./assets/resume/resume.pdf" download="resume.pdf" className="italic font-sans  text-xl mt-2 hover:text-yellow-600">Click here to download my resume!</a>
       <h3 className="font-serif text-3xl text-gray-900 mt-4">Front-End Proficiencies</h3>
       <ul className="font-sans text-lg ml-10">
         <li>JavaScript</li>
