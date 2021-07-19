@@ -5,7 +5,7 @@ function AboutMe() {
     <main className="text-gray-800 flex-grow my-6 mx-10 px-10">
       <h2 className="font-serif text-5xl">About Me</h2>
       <div>
-        <img className="xs:w-56 sm:w-96 my-6 border-2 border-yellow-600" src="./assets/images/shay.jpg"></img>
+        <img className="xs:w-56 sm:w-96 my-6 border-2 border-yellow-600" src="../../../public/assets/images/shay.jpg"></img>
       </div>
       <div className="my-4">
         <p className="font-sans xs:text-xl m:text-lg">
