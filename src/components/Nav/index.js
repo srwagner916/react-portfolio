@@ -11,10 +11,10 @@ function Nav(props) {
 
   return (
       <nav className="inline-flex">
-        <ul className="text-3xl text-gray-800 inline-block">
+        <ul className="xs:text-2xl xs:flex xs:flex-col md:flex-row lg:text-3xl text-gray-800 inline-block">
           {tabs.map((tab) => (
             <li 
-              className={`cursor-pointer inline mx-10 ${currentTab.name === tab.name && 'text-yellow-600'}`}
+              className={`xs:my-1 cursor-pointer inline mx-10 ${currentTab.name === tab.name && 'text-yellow-600'}`}
               key={tab.name}
             >
               <span

@@ -36,7 +36,7 @@ function Contact() {
 
 
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col my-auto">
       <h2 className="font-serif mx-auto mt-10 text-5xl">Contact Me</h2>
 
       <form className="font-sans mx-auto w-96" onSubmit={handleSubmit}>
@@ -48,7 +48,7 @@ function Contact() {
           <label className="text-2xl" htmlFor="email">Email address:</label>
           <input className="bg-blue-50 border-gray-400 focus:ring-yellow-600 focus:border-yellow-600" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
         </div>
-        <div className="grid grid-cols-1   my-5">
+        <div className="grid grid-cols-1 my-5">
           <label className="text-2xl" htmlFor="message">Message:</label>
           <textarea className="bg-blue-50 border-gray-400 focus:ring-yellow-600 focus:border-yellow-600" name="message" defaultValue={message} onBlur={handleChange}/>
         </div>
